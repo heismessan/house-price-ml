@@ -1,0 +1,7 @@
+OBSERVATION
+shape: 4600 lignes 18 colonnes
+la colonne cible est 'price'
+Aucunes données manquantes ou déjà nettoyer
+Toutes les colonnes sont numériques sauf les 4 dernières
+Toutes les colonnes sont très importantes sauf countries car la variance ici est nulle.
+dt.sort_values(by="date") => permet de trier le dataset en fonction de la date
